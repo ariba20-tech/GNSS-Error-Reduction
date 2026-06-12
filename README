@@ -1,0 +1,59 @@
+# Predictive Modeling for GNSS Satellite Clock & Ephemeris Errors
+
+## Overview
+This project uses Machine Learning techniques to predict GNSS satellite clock and ephemeris errors. Accurate prediction of these errors can improve positioning accuracy for navigation, surveying, autonomous vehicles, and precision agriculture.
+
+## Problem Statement
+GNSS systems such as GPS, Galileo, and GLONASS are affected by satellite clock drift and orbital inaccuracies. These errors can significantly impact positioning precision.
+
+## Objectives
+- Analyze GNSS error datasets
+- Preprocess satellite navigation data
+- Train machine learning models for error prediction
+- Evaluate model performance
+- Improve positioning accuracy through predictive correction
+
+## Technologies Used
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- XGBoost (if used)
+
+## Dataset
+The project uses GNSS-related datasets obtained from:
+- International GNSS Service (IGS)
+- RINEX files
+- SP3 orbit files
+
+## Methodology
+1. Data Collection
+2. Data Preprocessing
+3. Feature Engineering
+4. Model Training
+5. Error Prediction
+6. Performance Evaluation
+
+## Results
+The trained model successfully identified patterns in satellite clock and ephemeris errors and demonstrated the potential for improving GNSS positioning accuracy.
+
+## Repository Structure
+```
+GNSS-Error-Prediction/
+│
+├── gnss_error_prediction.ipynb
+├── requirements.txt
+├── README.md
+└── dataset/
+```
+
+## Future Work
+- Real-time prediction pipeline
+- Deep Learning models (LSTM/Transformer)
+- Integration with live GNSS streams
+
+## Author
+Ariba Hurrain Hussain
+Artificial Intelligence & Machine Learning
